@@ -1,0 +1,392 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jersey+10&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@font-face {
+  font-family: headings;
+  src: url(/fonts/Vogue.ttf); }
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box; }
+
+.site-box {
+  width: 1440px;
+  margin: auto; }
+
+.site-box-2 {
+  width: 1500px;
+  margin: auto; }
+
+.site-box-3 {
+  width: 1140px;
+  margin: auto; }
+
+.site-container {
+  background-color: #ecf3f5; }
+
+body h1, body h2, body h3, body h4, body h5, body h6, body span, body p {
+  color: black;
+  font-family: "Open Sans"; }
+body img {
+  width: 100%; }
+
+.py-15 {
+  padding-top: 15px;
+  padding-bottom: 15px; }
+
+.py-60 {
+  padding-top: 60px;
+  padding-bottom: 60px; }
+
+.py-100 {
+  padding-top: 100px;
+  padding-bottom: 100px; }
+
+.py-130 {
+  padding-top: 130px;
+  padding-bottom: 130px; }
+
+.py-150 {
+  padding-top: 150px;
+  padding-bottom: 150px; }
+
+.py-200 {
+  padding-top: 200px;
+  padding-bottom: 200px; }
+
+.navbar .left-navbar img {
+  cursor: pointer; }
+.navbar .right-navbar ul li .right-navbar-about {
+  color: #2f2863; }
+
+.product-designer-first {
+  display: flex;
+  position: relative; }
+  .product-designer-first .product-designer-info {
+    width: 50%; }
+    .product-designer-first .product-designer-info h3 {
+      font-size: 16px;
+      font-weight: 500;
+      border-left: 3px solid #ffc300;
+      padding-left: 10px;
+      color: #03045e; }
+    .product-designer-first .product-designer-info h1 {
+      font-size: 100px;
+      color: #03045e;
+      font-family: headings;
+      padding-top: 50px;
+      padding-bottom: 40px;
+      font-size: 60px;
+      line-height: 80px;
+      padding-top: 30px;
+      padding-bottom: 20px; }
+    .product-designer-first .product-designer-info p {
+      font-size: 17px;
+      font-weight: 500;
+      color: #9097a3;
+      line-height: 30px;
+      margin-bottom: 20px; }
+    .product-designer-first .product-designer-info .product-contact {
+      margin-top: 40px; }
+      .product-designer-first .product-designer-info .product-contact button {
+        padding: 20px;
+        font-size: 19px;
+        color: white;
+        background-color: #7161ef;
+        border: none;
+        border-radius: 20px;
+        width: 170px; }
+        .product-designer-first .product-designer-info .product-contact button:hover {
+          background-color: #ffc300;
+          color: #7161ef;
+          transition: 0.3s;
+          cursor: pointer; }
+      .product-designer-first .product-designer-info .product-contact a {
+        font-size: 20px;
+        font-weight: 600;
+        text-decoration: none;
+        font-family: "Open Sans";
+        margin-left: 20px;
+        color: #7161ef;
+        border-bottom: 3px solid #ffc300; }
+        .product-designer-first .product-designer-info .product-contact a:hover {
+          border-bottom: 3px solid #7161ef;
+          transition: 0.3s; }
+  .product-designer-first img {
+    width: 550px;
+    position: absolute;
+    right: 0px;
+    top: 0px; }
+
+.product-designer-second {
+  padding-top: 200px;
+  padding-bottom: 100px; }
+  .product-designer-second .product-designer-info h3 {
+    font-size: 16px;
+    font-weight: 500;
+    border-left: 3px solid #ffc300;
+    padding-left: 10px;
+    color: #03045e;
+    width: 250px;
+    margin: auto; }
+  .product-designer-second .product-designer-info h1 {
+    font-size: 100px;
+    color: #03045e;
+    font-family: headings;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    width: 750px;
+    margin: auto;
+    font-size: 52px;
+    padding-top: 15px; }
+  .product-designer-second .product-designer-info p {
+    font-size: 17px;
+    font-weight: 500;
+    color: #9097a3;
+    width: 750px;
+    margin: auto;
+    text-align: center;
+    line-height: 30px; }
+  .product-designer-second .product-designer-images {
+    display: flex;
+    padding-top: 50px;
+    position: relative; }
+    .product-designer-second .product-designer-images .background-box {
+      position: absolute;
+      bottom: 100px;
+      left: 350px;
+      border: 20px solid #d4e2f3;
+      width: 100px;
+      height: 800px;
+      padding: 200px;
+      z-index: 0; }
+    .product-designer-second .product-designer-images .image1-2 img {
+      border-radius: 20px;
+      margin-top: 30px; }
+    .product-designer-second .product-designer-images .image1-2 .image1-parent {
+      width: 550px;
+      height: 620px;
+      border-radius: 20px;
+      position: relative;
+      overflow: hidden; }
+      .product-designer-second .product-designer-images .image1-2 .image1-parent .overlay-color {
+        background-color: #59189ab0;
+        width: 550px;
+        height: 335px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        opacity: 0;
+        width: 550px;
+        height: 650px;
+        background-color: #8032cfb0; }
+        .product-designer-second .product-designer-images .image1-2 .image1-parent .overlay-color:hover {
+          opacity: 1;
+          transition: 0.5s;
+          cursor: pointer; }
+      .product-designer-second .product-designer-images .image1-2 .image1-parent .image1 {
+        width: 550px;
+        margin: 0px;
+        position: absolute;
+        top: -28px; }
+        .product-designer-second .product-designer-images .image1-2 .image1-parent .image1:hover {
+          width: 600px;
+          transition: 0.7s;
+          cursor: pointer; }
+    .product-designer-second .product-designer-images .image1-2 .image2-parent {
+      width: 550px;
+      height: 365px;
+      border-radius: 20px;
+      position: relative;
+      overflow: hidden;
+      margin-top: 30px; }
+      .product-designer-second .product-designer-images .image1-2 .image2-parent .overlay-color {
+        background-color: #59189ab0;
+        width: 550px;
+        height: 335px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        opacity: 0;
+        width: 550px;
+        height: 442px;
+        background-color: #8032cfb0; }
+        .product-designer-second .product-designer-images .image1-2 .image2-parent .overlay-color:hover {
+          opacity: 1;
+          transition: 0.5s;
+          cursor: pointer; }
+      .product-designer-second .product-designer-images .image1-2 .image2-parent .image2 {
+        width: 550px;
+        margin: 0px;
+        position: absolute;
+        top: -28px; }
+        .product-designer-second .product-designer-images .image1-2 .image2-parent .image2:hover {
+          width: 610px;
+          transition: 0.7s;
+          cursor: pointer; }
+    .product-designer-second .product-designer-images .image3-4 img {
+      border-radius: 20px;
+      margin-top: 30px;
+      margin-left: 30px; }
+    .product-designer-second .product-designer-images .image3-4 .image3-parent {
+      width: 550px;
+      height: 365px;
+      border-radius: 20px;
+      position: relative;
+      overflow: hidden;
+      margin-left: 30px; }
+      .product-designer-second .product-designer-images .image3-4 .image3-parent .overlay-color {
+        background-color: #59189ab0;
+        width: 550px;
+        height: 335px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        opacity: 0;
+        width: 650px;
+        height: 442px;
+        background-color: #8032cfb0; }
+        .product-designer-second .product-designer-images .image3-4 .image3-parent .overlay-color:hover {
+          opacity: 1;
+          transition: 0.5s;
+          cursor: pointer; }
+      .product-designer-second .product-designer-images .image3-4 .image3-parent .image3 {
+        width: 550px;
+        margin: 0px;
+        position: absolute;
+        left: -28px;
+        top: -28px; }
+        .product-designer-second .product-designer-images .image3-4 .image3-parent .image3:hover {
+          width: 580px;
+          transition: 0.7s;
+          cursor: pointer; }
+    .product-designer-second .product-designer-images .image3-4 .image4-parent {
+      width: 550px;
+      height: 425px;
+      border-radius: 20px;
+      position: relative;
+      overflow: hidden;
+      margin-left: 30px;
+      margin-top: 30px; }
+      .product-designer-second .product-designer-images .image3-4 .image4-parent .overlay-color {
+        background-color: #59189ab0;
+        width: 550px;
+        height: 335px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        opacity: 0;
+        width: 650px;
+        height: 520px;
+        background-color: #8032cfb0; }
+        .product-designer-second .product-designer-images .image3-4 .image4-parent .overlay-color:hover {
+          opacity: 1;
+          transition: 0.5s;
+          cursor: pointer; }
+      .product-designer-second .product-designer-images .image3-4 .image4-parent .image4 {
+        width: 600px;
+        margin: 0px;
+        position: absolute;
+        left: -28px;
+        top: -28px; }
+        .product-designer-second .product-designer-images .image3-4 .image4-parent .image4:hover {
+          width: 650px;
+          transition: 0.7s;
+          cursor: pointer; }
+
+.aboutme-web-dots-design {
+  position: relative; }
+  .aboutme-web-dots-design .big-dots-1 {
+    width: 120px;
+    position: absolute;
+    right: 30px;
+    z-index: 5;
+    top: 100px; }
+  .aboutme-web-dots-design .big-dots-2 {
+    width: 120px;
+    position: absolute;
+    top: 2050px;
+    left: 0px;
+    z-index: 5; }
+  .aboutme-web-dots-design .big-dots-3 {
+    width: 120px;
+    position: absolute;
+    top: 5800px;
+    right: 100px;
+    z-index: 5; }
+  .aboutme-web-dots-design .small-dots-1 {
+    width: 120px;
+    position: absolute;
+    width: 80px;
+    top: 800px;
+    left: 400px;
+    z-index: 5; }
+  .aboutme-web-dots-design .small-dots-2 {
+    width: 120px;
+    position: absolute;
+    width: 80px;
+    top: 2250px;
+    right: 100px;
+    z-index: 5; }
+  .aboutme-web-dots-design .small-dots-3 {
+    width: 120px;
+    position: absolute;
+    width: 100px;
+    top: 3150px;
+    right: 680px;
+    z-index: 5; }
+  .aboutme-web-dots-design .small-dots-4 {
+    width: 120px;
+    position: absolute;
+    width: 80px;
+    top: 4970px;
+    right: 280px;
+    z-index: 5; }
+  .aboutme-web-dots-design .small-dots-5 {
+    width: 120px;
+    position: absolute;
+    width: 80px;
+    top: 6240px;
+    right: 700px;
+    z-index: 5; }
+  .aboutme-web-dots-design .traiangle-circle-1 {
+    width: 120px;
+    position: absolute;
+    width: 100px;
+    top: 480px;
+    right: 600px;
+    z-index: 5; }
+  .aboutme-web-dots-design .traiangle-circle-2 {
+    width: 120px;
+    position: absolute;
+    width: 100px;
+    top: 1650px;
+    right: 0px;
+    z-index: 5; }
+  .aboutme-web-dots-design .traiangle-circle-3 {
+    width: 120px;
+    position: absolute;
+    top: 5270px;
+    right: 680px;
+    z-index: 5; }
+  .aboutme-web-dots-design .traiangle-1 {
+    width: 120px;
+    position: absolute;
+    top: 840px;
+    right: 0px;
+    z-index: 5; }
+  .aboutme-web-dots-design .traiangle-2 {
+    width: 120px;
+    position: absolute;
+    width: 140px;
+    top: 3400px;
+    left: 550px;
+    z-index: 5; }
+  .aboutme-web-dots-design .traiangle-3 {
+    width: 120px;
+    position: absolute;
+    width: 140px;
+    top: 5640px;
+    left: 0px;
+    z-index: 5; }
+
+/*# sourceMappingURL=aboutme.css.map */

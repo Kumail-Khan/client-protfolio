@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@font-face{
+    font-family: headings;
+    src: url(/fonts/Vogue.ttf);
+}
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.site-box{
+    width: 1440px;
+    margin: auto;
+}
+
+.site-box-2{
+    width: 1500px;
+    margin: auto;
+}
+
+.site-box-3{
+    width: 1140px;
+    margin: auto;
+}
+
+.site-container{
+    background-color:#ecf3f5;
+}
+
+body{
+    h1, h2, h3, h4, h5, h6, span, p{
+        color: black;
+        font-family: "Open Sans";
+    }
+    img{
+        width: 100%;
+    }
+}
+
+.py-15{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.py-60{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.py-100{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.py-130{
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+
+.py-150{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+
+.py-200{
+    padding-top: 200px;
+    padding-bottom: 200px;
+}

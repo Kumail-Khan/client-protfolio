@@ -1,0 +1,183 @@
+
+@mixin h3-heading{
+    font-size: 16px;
+    font-weight: 500;
+    border-left:3px solid #ffc300 ;
+    padding-left: 10px;
+    color: #03045e;
+}
+
+
+@mixin h1-heading{
+    font-size: 100px;
+    color: #03045e;
+    font-family:headings;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+@mixin para{
+    font-size: 17px;
+    font-weight: 500    ;
+    color: rgb(144, 151, 163)
+}
+
+@mixin button{
+    padding: 20px;
+    font-size: 19px;
+    color: white;
+    background-color: #7161ef;
+    border: none;
+    border-radius: 20px;
+    width: 170px;
+    &:hover{
+        background-color: #ffc300;
+        color: #7161ef;
+        transition: 0.3s;
+        cursor: pointer;
+    }
+}
+
+@mixin download{
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: "Open Sans";
+    margin-left: 20px;
+    color: #7161ef;
+    border-bottom: 3px solid #ffc300;
+    &:hover{
+        border-bottom: 3px solid #7161ef;
+        transition: 0.3s;
+    }
+}
+
+@mixin aboutcards{
+    background-color: white;
+    padding-left: 90px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    &:hover{
+        box-shadow: 25px 25px 25px 10px rgb(226, 232, 238) ;
+        transition: 0.3s;
+    }
+    img{
+        width: 100px;
+    }
+    span{
+        font-size: 18px;
+        font-weight: 600;
+        width: 150px;
+        display: inline-block;
+        margin-top: 15px;
+        margin-left: -10px;
+    }
+}
+
+@mixin skillcards{
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    width: 260px;
+    height: 280px;
+    &:hover{
+        box-shadow: 25px 25px 25px 10px rgb(226, 232, 238) ;
+        transition: 0.3s;
+    }
+    h2{
+        font-size: 19px;
+        font-weight: 600;
+        padding-top: 10px
+    }
+    p{
+        @include para;
+        font-size: 15px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        line-height: 23px
+    }
+    a{
+        @include download;
+        padding: 0px;
+        font-size: 18px;
+        font-weight: 500;
+        margin: 0px;
+        border-bottom: 3px solid #ffc300;
+    }
+}
+
+@mixin protfoliocards{
+    width: 550px;
+    background-color: white;
+    border-radius: 20px;
+    
+    img{
+        border-radius: 20px 20px 0px 0px;
+        &:hover{
+            
+        }
+    }
+    span{
+        font-size: 17px;
+        font-weight: 700;
+        color: #03045e;
+        margin: 25px;
+        display: inline-block;
+    }
+}
+
+@mixin overlay-color{
+    background-color: #59189ab0;
+    width: 550px;
+    height: 335px;
+    position: absolute;
+    left: 0;
+    top: 0; 
+    opacity: 0;
+    &:hover{
+        opacity: 1;
+        transition: 0.5s;
+        cursor: pointer;
+        
+    }
+}
+
+@mixin hover-buttons{
+    display: flex;
+                width: 50px;
+                position: absolute;
+                left: 200px;
+                top: 150px;
+                opacity: 0;
+                &:hover{
+                    opacity: 1;
+                    cursor: pointer;
+                }
+                .sign{
+                    padding: 13px;
+                    background-color:  #ffc300;
+                    border-radius: 50%;
+                    border: none;
+                    &:hover{
+                        background-color:  white;
+                        transition: 0.3s;
+                    }
+                }
+                .link{
+                    padding: 13px;
+                    background-color:  #ffc300;
+                    border-radius: 50%;
+                    border: none;
+                    margin-left: 15px;
+                    &:hover{
+                        background-color:  white;
+                        transition: 0.3s;
+                    }
+                }
+}
+
+@mixin bigdots{
+    width: 120px;
+        position: absolute;
+}

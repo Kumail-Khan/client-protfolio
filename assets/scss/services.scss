@@ -1,0 +1,188 @@
+@import "./basic.scss";
+@import "./mixin.scss";
+
+
+.navbar{
+    .left-navbar{
+        img{
+            cursor: pointer;
+        }
+    }
+    .right-navbar{
+        ul{
+            li{
+                
+                    .right-navbar-serices{
+                        color: #2f2863;
+                    }
+            
+            }
+        }
+    }
+}
+
+.skill-section{
+    position: relative;
+    .background-box{
+        position: absolute;
+        bottom: 10px;
+        left: 350px;
+        border: 20px solid rgb(212, 226, 243);
+        width: 100px;
+        height: 800px;
+        padding: 200px;
+        z-index: 0;
+    }
+    h3{
+        @include h3-heading;
+    }
+    h1{
+        @include h1-heading;
+        font-size: 50px;
+    }
+
+    .protfolio-images{
+        display: flex;
+        justify-content: center;
+        .image1-2{
+            
+            .image1{
+               @include protfoliocards;
+               margin: 20px;          
+               position: relative;
+               overflow: hidden;  
+               .images-info{
+                    padding: 30px;
+                    padding-bottom: 40px;
+                    h2{
+                        margin-bottom: 20px;
+                        font-size: 20px;
+                        color: #2f2863;
+                    } 
+                    p{
+                        line-height: 35px;
+                        color: rgb(144, 151, 163)
+                    }
+               }
+            }
+            .image2{
+                @include protfoliocards;
+                margin: 20px;
+                margin-top: 60px;
+                 position: relative;
+               overflow: hidden;
+               .images-info{
+                padding: 30px;
+                padding-bottom: 40px;
+                h2{
+                    margin-bottom: 20px;
+                    font-size: 20px;
+                    color: #2f2863;
+                } 
+                p{
+                    line-height: 35px;
+                    color: rgb(144, 151, 163)
+                }
+               }
+             }
+        }
+        .image3-4{
+            .image3{
+               @include protfoliocards;
+               margin: 20px;
+               margin-left: 50px;
+                position: relative;
+               overflow: hidden;
+               .images-info{
+                padding: 30px;
+                padding-bottom: 40px;
+                h2{
+                    margin-bottom: 20px;
+                    font-size: 20px;
+                    color: #2f2863;
+                } 
+                p{
+                    line-height: 35px;
+                    color: rgb(144, 151, 163)
+                }
+               }
+            }
+            .image4{
+                @include protfoliocards;
+                margin: 20px;
+                margin-top: 60px;
+                margin-left: 50px;
+                 position: relative;
+               overflow: hidden;
+               .images-info{
+                padding: 30px;
+                padding-bottom: 40px;
+                h2{
+                    margin-bottom: 20px;
+                    font-size: 20px;
+                    color: #2f2863;
+                } 
+                p{
+                    line-height: 35px;
+                    color: rgb(144, 151, 163)
+                }
+               }  
+             }
+        }
+        
+    }
+    // protfolio-images end
+}
+
+.services-web-dots-design{
+    position: relative;
+    .big-dots-1{
+        @include bigdots;
+        left: 100px;
+        top: 1660px
+    }
+    .big-dots-2{
+        @include bigdots;
+        right: 100px;
+        top: 2750px
+    }
+    .small-dots-1{
+        @include bigdots;
+        width: 80px;
+        right: 100px;
+        top: 950px
+    }
+    .small-dots-2{
+        @include bigdots;
+        width: 80px;
+        top: 1950px;
+        right: 300px;
+        z-index: 5;
+
+    }
+    .small-dots-3{
+        @include bigdots;
+        width: 100px;
+        top: 3150px;
+        right: 600px
+    }
+    .traiangle-circle-1{
+        @include bigdots;
+        width: 100px;
+        right: 0px;
+        top: 100px
+    }
+    .traiangle-circle-2{
+        @include bigdots;
+        width: 100px;
+        z-index: 5;
+        top: 2250px;
+        right: 700px        
+    }
+    .traiangle-1{
+        @include bigdots;
+        left: 0px;
+        top: 2600px;
+       z-index: 5;
+    }
+}

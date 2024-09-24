@@ -1,0 +1,25 @@
+@media only screen and (max-width: 1400px) {
+  .navbar {
+    margin: 0px; }
+    .navbar .left-navbar a img {
+      margin-left: 0px; }
+    .navbar .right-navbar {
+      margin-right: 700px; }
+
+  .hero-section .left-hero {
+    margin-left: 50px; }
+  .hero-section .right-hero {
+    position: absolute;
+    right: 185px;
+    bottom: 48px;
+    width: 505px; }
+
+  .aboutme {
+    width: auto; }
+    .aboutme .left-about {
+      margin-left: 50px; }
+
+  .video-section {
+    width: auto; } }
+
+/*# sourceMappingURL=indexqueries.css.map */

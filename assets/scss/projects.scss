@@ -1,0 +1,179 @@
+@import "./basic.scss";
+@import "./mixin.scss";
+
+
+.navbar{
+    .left-navbar{
+        img{
+            cursor: pointer;
+        }
+    }
+    .right-navbar{
+        ul{
+            li{
+
+                    .right-navbar-project-li{
+                        color: #2f2863;
+                    }
+
+            }
+        }
+    }
+}
+
+.protfolio-images{
+    display: flex;
+    justify-content: center;
+    .image1-2{
+        .image1{
+           @include protfoliocards;
+           margin: 20px;
+           position: relative;
+           overflow: hidden;
+            .overly-color{
+               @include overlay-color;
+            }   
+           .hover-buttons{
+                @include hover-buttons;
+           }
+        }
+        .image2{
+            @include protfoliocards;
+            margin: 20px;
+             position: relative;
+           overflow: hidden;
+            .overly-color{
+                @include overlay-color;
+             }   
+            .hover-buttons{
+                 @include hover-buttons;
+            }
+         }
+    }
+    .image3-4{
+        .image3{
+           @include protfoliocards;
+           margin: 20px;
+            position: relative;
+           overflow: hidden;
+           .overly-color{
+            @include overlay-color;
+         }   
+        .hover-buttons{
+             @include hover-buttons;
+        }
+        }
+        .image4{
+            @include protfoliocards;
+            margin: 20px;
+             position: relative;
+           overflow: hidden;
+            .overly-color{
+                @include overlay-color;
+             }   
+            .hover-buttons{
+                 @include hover-buttons;
+            }
+         }
+    }
+    
+}
+// protfolio-images end
+
+
+.project-web-dots-design{
+    position: relative;
+    .big-dots-1{
+        @include bigdots;
+        right: 30px;
+        z-index: 5;
+        top: 100px
+    }
+    .big-dots-2{
+        @include bigdots;
+        top: 2050px;
+        left: 0px;
+        z-index: 5;
+    }
+    .big-dots-3{
+        @include bigdots;
+        top: 5800px;
+        right: 100px;
+        z-index: 5;
+    }
+    .small-dots-1{
+        @include bigdots;
+        width: 80px;
+        top: 700px;
+        left: 400px;
+        z-index: 5;
+    }
+    .small-dots-2{
+        @include bigdots;
+        width: 80px;
+        top: 2250px;
+        right: 100px;
+        z-index: 5;
+    }
+    .small-dots-3{
+        @include bigdots;
+        width: 100px;
+        top: 3150px;
+        right: 680px;
+        z-index: 5;
+    }
+    .small-dots-4{
+        @include bigdots;
+        width: 80px;
+        top: 4970px;
+        right: 280px;
+        z-index: 5;
+    }
+    .small-dots-5{
+        @include bigdots;
+        width: 80px;
+        top: 6240px;
+        right: 700px;
+        z-index: 5;
+    }
+    .traiangle-circle-1{
+        @include bigdots;
+        width: 100px;
+        top: 480px;
+        right: 600px;
+        z-index: 5;
+    }
+    .traiangle-circle-2{
+        @include bigdots;
+        width: 100px;
+        top: 1650px;
+        right: 0px;
+        z-index: 5;
+    }
+    .traiangle-circle-3{
+        @include bigdots;
+        top: 5270px;
+        right: 680px;
+        z-index: 5;
+    }
+    .traiangle-1{
+        @include bigdots;
+        top: 840px;
+        right: 0px;
+        z-index: 5;
+    }
+    .traiangle-2{
+        @include bigdots;
+        width: 140px;
+        top: 3400px;
+        left: 550px;
+        z-index: 5;
+    }
+    .traiangle-3{
+        @include bigdots;
+        width: 140px;
+        top: 5640px;
+        left: 0px;
+        z-index: 5;
+    }
+}

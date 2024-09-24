@@ -1,0 +1,59 @@
+@media only screen and (max-width: 1400px){
+
+
+    .navbar{
+        margin: 0px;
+        .left-navbar{
+            a{
+                img{
+                    margin-left: 0px;
+                }
+            }
+        }
+        .right-navbar{
+            margin-right: 700px;
+        }
+    }
+
+    .hero-section{
+        .left-hero{
+            margin-left: 50px;
+        }
+        .right-hero{
+            position: absolute;
+            right: 185px;
+            bottom: 48px;
+            width: 505px;
+        }
+    }
+    
+    .aboutme {
+        width: auto;
+        .left-about{
+            margin-left: 50px;
+        }
+    }
+
+    .video-section{
+        width: auto;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+

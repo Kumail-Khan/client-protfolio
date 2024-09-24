@@ -1,0 +1,323 @@
+@import "./basic.scss";
+@import "./mixin.scss";
+
+
+
+.navbar{
+    .left-navbar{
+        img{
+            cursor: pointer;
+        }
+    }
+    .right-navbar{
+        ul{
+            li{
+
+                    .right-navbar-about{
+                        color: #2f2863;
+                    }
+
+            }
+        }
+    }
+}
+
+.product-designer-first{
+    display: flex;
+    position: relative;
+    .product-designer-info{
+        width: 50%;
+        h3{
+            @include h3-heading
+        }
+        h1{
+            @include h1-heading;
+            font-size: 60px;
+            line-height: 80px;
+            padding-top: 30px;
+            padding-bottom: 20px
+        }
+        p{
+            @include para;
+            line-height: 30px;
+            margin-bottom: 20px;
+        }
+        .product-contact{
+            margin-top: 40px;
+            button{
+                @include button;
+            }
+            a{
+                @include download;
+            }
+        }
+    }
+    img{
+        width: 550px;
+       position: absolute;
+       right: 0px;
+       top: 0px;
+    }
+}
+
+.product-designer-second{
+    padding-top: 200px;
+    padding-bottom: 100px;
+    .product-designer-info{
+        h3{
+            @include h3-heading;
+            width: 250px;
+            margin: auto;
+           
+        }
+        h1{
+            @include h1-heading;
+            width: 750px;
+            margin: auto;
+            font-size: 52px;
+            padding-top: 15px;
+        }
+        p{
+            @include para;
+            width: 750px;
+            margin: auto;
+            text-align: center;
+            line-height: 30px;
+        }
+    }
+    .product-designer-images{
+        display: flex;
+        padding-top: 50px;
+        position: relative;
+        .background-box{
+            position: absolute;
+            bottom: 100px;
+            left: 350px;
+            border: 20px solid rgb(212, 226, 243);
+            width: 100px;
+            height: 800px;
+            padding: 200px;
+            z-index: 0;
+        }
+        .image1-2{
+            img{
+                border-radius: 20px;
+                margin-top: 30px;
+                
+            }
+            .image1-parent{
+                width: 550px;
+                height: 620px;
+                border-radius: 20px;
+                position: relative;
+                overflow: hidden;
+                .overlay-color{
+                    @include overlay-color;
+                    width: 550px;
+                    height: 650px;
+                    background-color: #8032cfb0;
+                 }  
+                .image1{
+                    width: 550px;
+                    margin: 0px;
+                    position: absolute;
+                    top: -28px;
+                    &:hover{
+                        width: 600px;
+                        transition: 0.7s ;
+                        cursor: pointer;
+                    }
+                   
+                }
+            }
+
+            .image2-parent{
+                width: 550px;
+                height: 365px;
+                border-radius: 20px;
+                position: relative;
+                overflow: hidden;
+                margin-top: 30px;
+                .overlay-color{
+                    @include overlay-color;
+                    width: 550px;
+                    height:  442px;
+                    background-color: #8032cfb0;
+                 }  
+                .image2{
+                    width: 550px;
+                    margin: 0px;
+                    position: absolute;
+                    top: -28px;
+                    &:hover{
+                        width: 610px;
+                        transition: 0.7s ;
+                        cursor: pointer;
+                    }
+                   
+                }
+            }
+        }
+        
+        .image3-4{
+            img{
+                border-radius: 20px;
+                margin-top: 30px;
+                margin-left: 30px;
+            }
+            .image3-parent{
+                width: 550px;
+                height: 365px;
+                border-radius: 20px;
+                position: relative;
+                overflow: hidden;
+                margin-left: 30px;
+                
+                .overlay-color{
+                    @include overlay-color;
+                    width: 650px;
+                    height:  442px;
+                    background-color: #8032cfb0;
+                 }  
+                .image3{
+                    width: 550px;
+                    margin: 0px;
+                    position: absolute;
+                    left: -28px;
+                    top: -28px;
+                    &:hover{
+                        width: 580px;
+                        transition: 0.7s ;
+                        cursor: pointer;
+                    }
+                   
+                }
+            }
+            .image4-parent{
+                width: 550px;
+                height: 425px;
+                border-radius: 20px;
+                position: relative;
+                overflow: hidden;
+                margin-left: 30px;
+                margin-top: 30px;
+                .overlay-color{
+                    @include overlay-color;
+                    width: 650px;
+                    height:  520px;
+                    background-color: #8032cfb0;
+                 }  
+                .image4{
+                    width: 600px;
+                    margin: 0px;
+                    position: absolute;
+                    left: -28px;
+                    top: -28px;
+                    &:hover{
+                        width: 650px;
+                        transition: 0.7s ;
+                        cursor: pointer;
+                    }
+                   
+                }
+            }
+        }
+    }
+}
+
+.aboutme-web-dots-design{
+    position: relative;
+    .big-dots-1{
+        @include bigdots;
+        right: 30px;
+        z-index: 5;
+        top: 100px
+    }
+    .big-dots-2{
+        @include bigdots;
+        top: 2050px;
+        left: 0px;
+        z-index: 5;
+    }
+    .big-dots-3{
+        @include bigdots;
+        top: 5800px;
+        right: 100px;
+        z-index: 5;
+    }
+    .small-dots-1{
+        @include bigdots;
+        width: 80px;
+        top: 800px;
+        left: 400px;
+        z-index: 5;
+    }
+    .small-dots-2{
+        @include bigdots;
+        width: 80px;
+        top: 2250px;
+        right: 100px;
+        z-index: 5;
+    }
+    .small-dots-3{
+        @include bigdots;
+        width: 100px;
+        top: 3150px;
+        right: 680px;
+        z-index: 5;
+    }
+    .small-dots-4{
+        @include bigdots;
+        width: 80px;
+        top: 4970px;
+        right: 280px;
+        z-index: 5;
+    }
+    .small-dots-5{
+        @include bigdots;
+        width: 80px;
+        top: 6240px;
+        right: 700px;
+        z-index: 5;
+    }
+    .traiangle-circle-1{
+        @include bigdots;
+        width: 100px;
+        top: 480px;
+        right: 600px;
+        z-index: 5;
+    }
+    .traiangle-circle-2{
+        @include bigdots;
+        width: 100px;
+        top: 1650px;
+        right: 0px;
+        z-index: 5;
+    }
+    .traiangle-circle-3{
+        @include bigdots;
+        top: 5270px;
+        right: 680px;
+        z-index: 5;
+    }
+    .traiangle-1{
+        @include bigdots;
+        top: 840px;
+        right: 0px;
+        z-index: 5;
+    }
+    .traiangle-2{
+        @include bigdots;
+        width: 140px;
+        top: 3400px;
+        left: 550px;
+        z-index: 5;
+    }
+    .traiangle-3{
+        @include bigdots;
+        width: 140px;
+        top: 5640px;
+        left: 0px;
+        z-index: 5;
+    }
+}
